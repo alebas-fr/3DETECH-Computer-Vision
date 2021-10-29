@@ -28,4 +28,6 @@ Le 1$ Recognizer est rapide et simple à realiser pour reconnaitre des formes si
 
 Je pense que pour résoudre certains problèmes on pourrait essayer de prendre plusieurs templates pour chaque forme à reconnaitre mais cela ferait perdre en réactivité notre 1$ recognizer. Si nous avons plus de données le $1 recognizer va gagner en taux de reconnaissance mais va perdre en réactivité c'est donc un compromis à trouver entre la performance de la reconnaissance
 
+
+
 Concernant le test du code sur un autre PC cela a été realisé et j'ai aussi pris la peine sur le PC ou j'ai codé de tester s'il n'y avait pas de chemin de fichier absolu (du type C:\Users\...) en déplaçant les fichiers à un autre chemin pour vérifier qu'il n'y avait pas d'erreur.
