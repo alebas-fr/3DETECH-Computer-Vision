@@ -12,9 +12,9 @@ Une fois les codes téléchargés il suffit d'ouvrir le dossier ou est stocké l
 
 # Ce qui a été réalisé 
 
-Pour ce TP j'ai réalisé la partie 1 qui consistait à mettre en place le squelette de l'application (déja fourni mais il fallait installer les bibliothèques pythons pour pouvoir lancer le code) ensuite j'ai créé la galerie de templates et ajouter des templates dedans. Il y a 16 templates dedans pour 16 symboles à reconnaitre un seul template nous permet d'avoir un système plus réactif et qu'un seul échantillon suffit.
+Pour ce TP j'ai fait la partie 1 qui consistait à mettre en place le squelette de l'application (déja fourni mais il fallait installer les bibliothèques pythons pour pouvoir lancer le code) ensuite j'ai créé la galerie de templates et ajouter des templates dedans. Il y a 16 templates dedans pour 16 symboles à reconnaitre un seul template nous permet d'avoir un système plus réactif et qu'un seul échantillon suffit.
 
-Pour la partie 2 j'ai réalisé toutes les étapes (code a complété) pour implémenter 1$ c'est-à-dire faire le ré-échantillonage, la rotation basé sur l'angle indicatif, la mise à l'échelle et la translation et pour finir la reconnaissance.
+Pour la partie 2 j'ai complété toutes les étapes pour implémenter 1$ c'est-à-dire faire le ré-échantillonage, la rotation basé sur l'angle indicatif, la mise à l'échelle et la translation et pour finir la reconnaissance.
 
 Après ces deux premières parties notre 1$ recognizer est implémenté mais le résultat est envoyé et affiché dans la console.
 
@@ -27,7 +27,5 @@ Le 1$ Recognizer est rapide et simple à realiser pour reconnaitre des formes si
 - Sur d'autres forme il est incapable de reconnaitre la forme en fonction d'où nous commençons à tracer (par exemple le triangle si on part du sommet et que nous partons vers la droite le triangle ne sera pas reconnu et sera confondu avec d'autres forme comme le caret si nous partons vers la gauche le triangle sera reconnu sans soucis)
 
 Je pense que pour résoudre certains problèmes on pourrait essayer de prendre plusieurs templates pour chaque forme à reconnaitre mais cela ferait perdre en réactivité notre 1$ recognizer. Si nous avons plus de données le $1 recognizer va gagner en taux de reconnaissance mais va perdre en réactivité c'est donc un compromis à trouver entre la performance de la reconnaissance
-
-
 
 Concernant le test du code sur un autre PC cela a été realisé et j'ai aussi pris la peine sur le PC ou j'ai codé de tester s'il n'y avait pas de chemin de fichier absolu (du type C:\Users\...) en déplaçant les fichiers à un autre chemin pour vérifier qu'il n'y avait pas d'erreur.
